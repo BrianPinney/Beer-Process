@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+
+body { 
+    background-image: url("../images/fizzybeer.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2 {
+    font-family: 'Monofett', cursive;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+p {
+    font-family: 'Zilla Slab Highlight', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+section.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section.container figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
